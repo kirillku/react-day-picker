@@ -23,7 +23,8 @@ export default () => (
       <a href="#inputProps">inputProps</a>,{' '}
       <a href="#overlayComponent">overlayComponent</a>,{' '}
       <a href="#parseDate">parseDate</a>, <a href="#placeholder">placeholder</a>
-      , <a href="#showOverlay">showOverlay</a>, <a href="#value">value</a>
+      , <a href="#showOverlay">showOverlay</a>, <a href="#style">style</a>
+      , <a href="#value">value</a>
     </p>
     <h4>Event handlers</h4>
     <p>
@@ -259,6 +260,13 @@ function MyDayPickerInput() {
       <p>
         Show the overlay during the initial rendering of the component. This is
         useful if you want to keep the overlay visibile while styling it.
+      </p>
+      <h3>
+        <Anchor id="style" />
+        style <code>any</code>
+      </h3>
+      <p>
+        Style passed to container.
       </p>
       <h3>
         <Anchor id="value" />
